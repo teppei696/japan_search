@@ -24,7 +24,7 @@ $(function() {
         var link =
           "<div class='col col2'><a href='" + linkUrl + "' target = '_blank'>" + image + "</a></div>";
         var remove =
-          "<div class='col col3'><img src ='remove.png' height='10' onclick='deleteli(\"li_" + cnt + "\")'></div>";
+          "<div class='col col3'><img src ='./images/remove.png' height='10' onclick='deleteli(\"li_" + cnt + "\")'></div>";
         var li = "<li id='li_" + cnt + "'>" + desc + link + remove + "</li>";
         console.log(li);
         $("#result").append(li);
