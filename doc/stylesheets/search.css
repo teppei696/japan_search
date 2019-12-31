@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+h4 {
+    margin-bottom: 5px;
+}
+
+li {
+    border-bottom: dotted 1px;
+    vertical-align: middle;
+    list-style-type: none;
+    margin-top: 10px;
+}
+div.col {
+    display: inline-block;
+    height: 75px;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+div.col1 {
+    width: 300px;
+}
+div.col2 {
+    width: 75px;
+    text-align: center;
+}
+div.col3 {
+    width: 40px;
+}
+.provider {
+    font-size: small;
+}

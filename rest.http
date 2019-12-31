@@ -1,0 +1,10 @@
+https://jpsearch.go.jp/api/item/search/jps-cross?keyword=%E6%B1%9F%E6%88%B8
+
+### 
+https://jpsearch.go.jp/api/item/search/jps-cross?f-contents=thumb&from=0&size=100
+
+### 全件検索
+https://jpsearch.go.jp/api/item/scroll/jps-cross?keyword=写真
+
+### 全件取得（続き）
+https://jpsearch.go.jp/api/item/scroll/jps-cross?scrollId=DnF1ZXJ5VGhlbkZldGNoBQAAAAACKRgTFlYzMmtOdFB3VGJ1TkkwRU1IZE1jbWcAAAAAAikYFBZWMzJrTnRQd1RidU5JMEVNSGRNY21nAAAAAAIpGBUWVjMya050UHdUYnVOSTBFTUhkTWNtZwAAAAADT0QWFl9wV19zQ0kxVDdpaDQ0RE1Cc0ZqZVEAAAAAA58VNRZFZGwxRWJMdlJhRy1OdGE2dXNaZnl3

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <header>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="search.js"></script>
+        <link rel="stylesheet" type="text/css" href="search.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </header>
+    <body style="margin: 20px;">
+        <h4>まとめのタイトル</h4>
+        <textarea name="title" class="desc_input title_input inputarea" type="text" placeholder="タイトルを入力してください。"></textarea>
+        <h4>簡単な解説文</h4>
+        <textarea name="desc" class="desc_input" placeholder="簡単な解説文を入力してください。"></textarea>
+        <h4>検索</h4>
+        <div>キーワード：<input type="text" id="keyword" size="30" maxlength="20"></div>
+        <div style="margin-top: 10px;"><button id="search">検索</button>&nbsp;&nbsp;<button id="deleteAll">すべて削除</button></div>
+        <ul id="result">
+        </ul>
+    </body>
+</html>
